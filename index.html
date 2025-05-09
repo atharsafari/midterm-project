@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        :root {
+            --color-primary: #6D1600;
+            --color-secondary: #282A3A;
+            --color-border: #D9D9D9;
+            --color-background: #F6F6F6;
+        }
+
+        .font-playfair {
+            font-family: "Playfair Display", serif;
+        }
+        .font-playfair-sc {
+            font-family: "Playfair Display SC", serif;
+        }
+        .font-inter {
+            font-family: "Inter", sans-serif;
+        }
+        .font-poppins {
+            font-family: "Poppins", sans-serif;
+        }  
+        .font-jakarta {
+            font-family: "Plus Jakarta Sans", sans-serif;
+        }
+      </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/layout.css">
+    <title>mid-term project</title>
+</head>
+<body class="text-[var(--color-secondary)]">
+    <header>   
+        <section class="container font-inter">
+            <div class="h-22 px-20 flex justify-between items-center">
+                <div class="h-10"><img class="h-full" src="img/Logo.svg" alt="">
+                </div>
+                <div>
+                        <nav>
+                            <ul class="flex gap-14 text-xl font-normal text-(--font-family-inter)">
+                                <li><a href="#">Products</a></li>
+                                <li><a href="#">About us</a></li>
+                                <li><a href="#">Testimonial</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </nav>
+                </div>
+                <div class="flex gap-4 items-center">
+                        <div><img src="img/Icon Search.svg" alt=""></div>
+                        <div><img src="img/ShoppingBagOpen.svg" alt=""></div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="container">
+                <div class="my-20 justify-center text-center">
+                    <div class="mb-6">
+                        <p class="text-6xl leading-[1.2] font-medium font-playfair">Enjoy Your Favorite<br>Coffee with Ngopi</p>
+                    </div>
+                    <div class="mb-6">
+                        <p class="text-xl leading-[1.6] font-normal font-inter">Discover tranquility at Ngopi a sanctuary for unwinding,<br>where your evenings are perfected with relaxation and rich flavors.</p>
+                    </div>
+                    <a href="#" class="inline-flex items-center gap-4 text-white bg-[var(--color-primary)] py-6 px-12 rounded-tr-4xl rounded-bl-4xl">
+                        <p class="text-2xl font-normal leading-[1.4] uppercase font-playfair-sc">Explore product</p>
+                        <img src="img/ArrowDownRight.svg" alt="">
+                    </a>
+                </div>
+                <div class="gird grid-cols-5 flex justify-center gap-4 mx-20 mb-20">  
+                    <div><img src="img/1.svg" alt=""></div>
+                    <div><img src="img/2.svg" alt=""></div>
+                    <div><img src="img/3.svg" alt=""></div>
+                    <div><img src="img/4.svg" alt=""></div>
+                    <div><img src="img/5.svg" alt=""></div>                    
+                </div>
+        </section>
+        <div class="flex justify-center">
+            <svg width="1440" height="1" viewBox="0 0 1440 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="1440" height="1" fill="white"/>
+                <path d="M720 1C385.23 0.900198 160 0.71365 160 0.5C160 0.28635 385.23 0.0998016 720 0C1054.77 0.0998016 1280 0.28635 1280 0.5C1280 0.71365 1054.77 0.900198 720 1Z" fill="#282A3A"/>
+            </svg>     
+        </div>           
+        <section class="container"> 
+            <div class="flex justify-center py-20 gap-10 text-center">
+                <div class="w-56">
+                    <P class="text-6xl font-normal font-inter mb-2 leading-[1.2]">30+</P>
+                    <P class="text-2xl font-normal font-playfair leading-[1.2]">Coffee Variant</P>
+                </div>
+                <div>
+                    <svg width="2" height="114" viewBox="0 0 2 114" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 114C0.701099 102.623 0.5 81.3561 0.5 57C0.5 32.6439 0.701099 11.3774 1 0C1.2989 11.3774 1.5 32.6439 1.5 57C1.5 81.3561 1.2989 102.623 1 114Z" fill="#282A3A"/>
+                    </svg>
+                </div>
+                <div class="w-56">
+                    <P class="text-6xl font-normal font-inter mb-2 leading-[1.2]">20+</P>
+                    <P class="text-2xl font-normal font-playfair leading-[1.2]">Meeting room</P>
+                </div>
+                <div>
+                    <svg width="2" height="114" viewBox="0 0 2 114" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 114C0.701099 102.623 0.5 81.3561 0.5 57C0.5 32.6439 0.701099 11.3774 1 0C1.2989 11.3774 1.5 32.6439 1.5 57C1.5 81.3561 1.2989 102.623 1 114Z" fill="#282A3A"/>
+                    </svg>
+                </div>
+                <div class="w-56">
+                    <P class="text-6xl font-normal font-inter mb-2 leading-[1.2]">25+</P>
+                    <P class="text-2xl font-normal font-playfair leading-[1.2]">Event space</P>
+                </div>
+                <div>
+                    <svg width="2" height="114" viewBox="0 0 2 114" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 114C0.701099 102.623 0.5 81.3561 0.5 57C0.5 32.6439 0.701099 11.3774 1 0C1.2989 11.3774 1.5 32.6439 1.5 57C1.5 81.3561 1.2989 102.623 1 114Z" fill="#282A3A"/>
+                    </svg>
+                </div>
+                <div class="w-56">
+                    <P class="text-6xl font-normal font-inter mb-2 leading-[1.2]">40+</P>
+                    <P class="text-2xl font-normal font-playfair leading-[1.2]">Global Achievement</P>
+                </div>
+            </div>
+        </section>
+        <div class="flex justify-center">
+            <svg width="1440" height="1" viewBox="0 0 1440 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="1440" height="1" fill="white"/>
+                <path d="M720 1C385.23 0.900198 160 0.71365 160 0.5C160 0.28635 385.23 0.0998016 720 0C1054.77 0.0998016 1280 0.28635 1280 0.5C1280 0.71365 1054.77 0.900198 720 1Z" fill="#282A3A"/>
+            </svg>     
+        </div> 
+        <section class="container">
+            <div class="text-center mt-20">
+                <p class="mb-2 text-2xl font-normal font-inter text-gray-900/56 leading-[1.2]">Our products</p>
+                <p class="text-4xl font-normal font-playfair leading-[1.2]">From Top Quality Materials</p>
+            </div>
+            <div class="flex justify-center">
+                <div class="flex max-w-min p-2 mt-20 mb-10 bg-[var(--color-background)] rounded-[40px] font-inter text-2xl font-normal text-gray-900/70 leading-[1.2]">
+                    <button class="py-4 px-10 w-44 bg-white border-2 border-white rounded-[40px]">Latte</button>
+                    <button class="py-4 px-10 w-44 rounded-[40px]">Robusta</button>
+                    <button class="py-4 px-10 w-44 rounded-[40px]">Arabica</buttons>
+                </div>
+            </div>
+            <div class="grid grid-cols-4 gap-6 justify-center mx-20 mb-10">
+                <div>
+                    <img class="w-full" src="img/2-1.svg" alt="">
+                    <div class="py-4 px-6 space-y-4 font-inter">
+                        <p class="font-jakarta text-2xl font-semibold leading-[1.4]">Chocolate Latte</p>
+                        <div class="flex items-center gap-2 mt-4">
+                            <div class="flex gap-1">
+                                <svg width="22" height="22" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9.04894 0.927052C9.3483 0.00574112 10.6517 0.00573993 10.9511 0.927051L12.4697 5.60081C12.6035 6.01284 12.9875 6.2918 13.4207 6.2918H18.335C19.3037 6.2918 19.7065 7.53141 18.9228 8.10081L14.947 10.9894C14.5966 11.244 14.4499 11.6954 14.5838 12.1074L16.1024 16.7812C16.4017 17.7025 15.3472 18.4686 14.5635 17.8992L10.5878 15.0106C10.2373 14.756 9.7627 14.756 9.41221 15.0106L5.43648 17.8992C4.65276 18.4686 3.59828 17.7025 3.89763 16.7812L5.41623 12.1074C5.55011 11.6954 5.40345 11.244 5.05296 10.9894L1.07722 8.10081C0.293507 7.53141 0.696283 6.2918 1.66501 6.2918H6.57929C7.01252 6.2918 7.39647 6.01284 7.53035 5.60081L9.04894 0.927052Z" fill="#FFB31F"/>
+                                </svg>
+                                <p class="leading-[1.2] text-xl font-bold text-gray-900/70">4.9</p>
+                            </div>
+                            <p class="leading-[1.4] text-[16px] font-normal text-gray-900/70">(360 reviews)</p>
+                        </div>
+                        <p class="text-gray-900/70 leading-[1.4]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, quaerat.</p>
+                        <div class="flex justify-between items-center">
+                            <p class="text-xl font-bold text-gray-900/70 leading-[1.2]">$2.9</p>
+                            <svg width="80" height="32" viewBox="0 0 80 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_3219_378)">
+                                <rect width="80" height="32" rx="8" fill="#6D1600"/>
+                                <path d="M32 16H48" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M40 8V24" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_3219_378">
+                                <rect width="80" height="32" rx="8" fill="white"/>
+                                </clipPath>
+                                </defs>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img class="w-full" src="img/2-2.svg" alt="">
+                    <div class="py-4 px-6 font-inter">
+                        <p class="font-jakarta text-2xl font-semibold leading-[1.4]">Mocha Latte</p>
+                        <div class="flex items-center gap-2 mt-4">
+                            <div class="flex gap-1">
+                                <svg width="22" height="22" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9.04894 0.927052C9.3483 0.00574112 10.6517 0.00573993 10.9511 0.927051L12.4697 5.60081C12.6035 6.01284 12.9875 6.2918 13.4207 6.2918H18.335C19.3037 6.2918 19.7065 7.53141 18.9228 8.10081L14.947 10.9894C14.5966 11.244 14.4499 11.6954 14.5838 12.1074L16.1024 16.7812C16.4017 17.7025 15.3472 18.4686 14.5635 17.8992L10.5878 15.0106C10.2373 14.756 9.7627 14.756 9.41221 15.0106L5.43648 17.8992C4.65276 18.4686 3.59828 17.7025 3.89763 16.7812L5.41623 12.1074C5.55011 11.6954 5.40345 11.244 5.05296 10.9894L1.07722 8.10081C0.293507 7.53141 0.696283 6.2918 1.66501 6.2918H6.57929C7.01252 6.2918 7.39647 6.01284 7.53035 5.60081L9.04894 0.927052Z" fill="#FFB31F"/>
+                                </svg>
+                                <p class="leading-[1.2] text-xl font-bold text-gray-900/70">5</p>
+                            </div>
+                            <p class="leading-[1.4] text-[16px] font-normal text-gray-900/70">(180 reviews)</p>
+                        </div>
+                        <p class="mt-4 text-gray-900/70 leading-[1.4]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, quaerat.</p>
+                        <div class="mt-4 flex justify-between items-center">
+                            <p class="text-xl font-bold text-gray-900/70 leading-[1.2]">$2.7</p>
+                            <svg width="80" height="32" viewBox="0 0 80 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_3219_378)">
+                                <rect width="80" height="32" rx="8" fill="#6D1600"/>
+                                <path d="M32 16H48" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M40 8V24" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_3219_378">
+                                <rect width="80" height="32" rx="8" fill="white"/>
+                                </clipPath>
+                                </defs>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img class="w-full" src="img/2-3.svg" alt="">
+                    <div class="py-4 px-6 font-inter">
+                        <p class="font-jakarta text-2xl font-semibold leading-[1.4]">Coffee Latte</p>
+                        <div class="flex items-center gap-2 mt-4">
+                            <div class="flex gap-1">
+                                <svg width="22" height="22" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9.04894 0.927052C9.3483 0.00574112 10.6517 0.00573993 10.9511 0.927051L12.4697 5.60081C12.6035 6.01284 12.9875 6.2918 13.4207 6.2918H18.335C19.3037 6.2918 19.7065 7.53141 18.9228 8.10081L14.947 10.9894C14.5966 11.244 14.4499 11.6954 14.5838 12.1074L16.1024 16.7812C16.4017 17.7025 15.3472 18.4686 14.5635 17.8992L10.5878 15.0106C10.2373 14.756 9.7627 14.756 9.41221 15.0106L5.43648 17.8992C4.65276 18.4686 3.59828 17.7025 3.89763 16.7812L5.41623 12.1074C5.55011 11.6954 5.40345 11.244 5.05296 10.9894L1.07722 8.10081C0.293507 7.53141 0.696283 6.2918 1.66501 6.2918H6.57929C7.01252 6.2918 7.39647 6.01284 7.53035 5.60081L9.04894 0.927052Z" fill="#FFB31F"/>
+                                </svg>
+                                <p class="leading-[1.2] text-xl font-bold text-gray-900/70">4.8</p>
+                            </div>
+                            <p class="leading-[1.4] text-[16px] font-normal text-gray-900/70">(450 reviews)</p>
+                        </div>
+                        <p class="mt-4 text-gray-900/70 leading-[1.4]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, quaerat.</p>
+                        <div class="mt-4 flex justify-between items-center">
+                            <p class="text-xl font-bold text-gray-900/70 leading-[1.2]">$2.9</p>
+                            <svg width="80" height="32" viewBox="0 0 80 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_3219_378)">
+                                <rect width="80" height="32" rx="8" fill="#6D1600"/>
+                                <path d="M32 16H48" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M40 8V24" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_3219_378">
+                                <rect width="80" height="32" rx="8" fill="white"/>
+                                </clipPath>
+                                </defs>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img class="w-full" src="img/2-4.svg" alt="">
+                    <div class="py-4 px-6 font-inter">
+                        <p class="font-jakarta text-2xl font-semibold leading-[1.4]">Hazelnut Latte</p>
+                        <div class="flex items-center gap-2 mt-4">
+                            <div class="flex gap-1">
+                                <svg width="22" height="22" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9.04894 0.927052C9.3483 0.00574112 10.6517 0.00573993 10.9511 0.927051L12.4697 5.60081C12.6035 6.01284 12.9875 6.2918 13.4207 6.2918H18.335C19.3037 6.2918 19.7065 7.53141 18.9228 8.10081L14.947 10.9894C14.5966 11.244 14.4499 11.6954 14.5838 12.1074L16.1024 16.7812C16.4017 17.7025 15.3472 18.4686 14.5635 17.8992L10.5878 15.0106C10.2373 14.756 9.7627 14.756 9.41221 15.0106L5.43648 17.8992C4.65276 18.4686 3.59828 17.7025 3.89763 16.7812L5.41623 12.1074C5.55011 11.6954 5.40345 11.244 5.05296 10.9894L1.07722 8.10081C0.293507 7.53141 0.696283 6.2918 1.66501 6.2918H6.57929C7.01252 6.2918 7.39647 6.01284 7.53035 5.60081L9.04894 0.927052Z" fill="#FFB31F"/>
+                                </svg>
+                                <p class="leading-[1.2] text-xl font-bold text-gray-900/70">4.9</p>
+                            </div>
+                            <p class="leading-[1.4] text-[16px] font-normal text-gray-900/70">(390 reviews)</p>
+                        </div>
+                        <p class="mt-4 text-gray-900/70 leading-[1.4]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, quaerat.</p>
+                        <div class="mt-4 flex justify-between items-center">
+                            <p class="text-xl font-bold text-gray-900/70 leading-[1.2]">$2.8</p>
+                            <svg width="80" height="32" viewBox="0 0 80 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_3219_378)">
+                                <rect width="80" height="32" rx="8" fill="#6D1600"/>
+                                <path d="M32 16H48" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M40 8V24" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_3219_378">
+                                <rect width="80" height="32" rx="8" fill="white"/>
+                                </clipPath>
+                                </defs>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex justify-center mb-20">
+                <svg width="44" height="8" viewBox="0 0 44 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="4" cy="4" r="4" fill="#6D1600"/>
+                <circle cx="16" cy="4" r="4" fill="#D9D9D9"/>
+                <circle cx="28" cy="4" r="4" fill="#D9D9D9"/>
+                <circle cx="40" cy="4" r="4" fill="#D9D9D9"/>
+                </svg>
+            </div>
+        </section>
+        <div class="flex justify-center">
+            <svg width="1440" height="1" viewBox="0 0 1440 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="1440" height="1" fill="white"/>
+                <path d="M720 1C385.23 0.900198 160 0.71365 160 0.5C160 0.28635 385.23 0.0998016 720 0C1054.77 0.0998016 1280 0.28635 1280 0.5C1280 0.71365 1054.77 0.900198 720 1Z" fill="#282A3A"/>
+            </svg>     
+        </div>
+        <section class="container">
+            <div class="text-center m-20">
+                <p class="mb-2 text-2xl font-normal font-inter text-gray-900/56 leading-[1.2] underline">About us</p>
+                <p class="text-4xl font-normal font-['Playfair_Display'] leading-[1.2]">Why we are the best</p>
+            </div>
+            <div class="grid grid-cols-2 justify-center gap-20 mx-20 mb-20">
+                <div class="space-y-6 text-xl font-normal font-inter leading-[1.6]">
+                    <ul class="space-y-6">
+                        <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis, id! Cum nobis recusandae magni aliquam, repellat voluptas labore quis! Ab sunt excepturi laudantium  consectetur explicabo corporis quis eligendi nesciunt tempora eius.</li>
+                        <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error excepturi sint rem obcaecati magnam aperiam pariatur recusandae explicabo alias autem est, voluptas nulla et minima qui s voluptatibus dicta?</li>
+                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium sunt a est quo eos. Ex?</li>
+                    </ul>
+                    <a href="#" class="inline-flex items-center gap-4 text-white bg-[var(--color-primary)] py-6 px-12 rounded-tr-4xl rounded-bl-4xl">
+                        <p class="text-2xl font-normal leading-[1.4] uppercase font-playfair-sc">Read More</p>
+                        <img src="img/ArrowDownRight.svg" alt="">
+                </a>
+                </div>
+                <div class="flex justify-between gap-6">
+                    <div class="w-full flex justify-end items-end">
+                        <img class="w-full" src="img/3-1.svg" alt="">
+                    </div>
+                    <div class="w-full">
+                        <img class="w-full" src="img/3-2.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="flex justify-center">
+            <svg width="1440" height="1" viewBox="0 0 1440 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="1440" height="1" fill="white"/>
+                <path d="M720 1C385.23 0.900198 160 0.71365 160 0.5C160 0.28635 385.23 0.0998016 720 0C1054.77 0.0998016 1280 0.28635 1280 0.5C1280 0.71365 1054.77 0.900198 720 1Z" fill="#282A3A"/>
+            </svg>     
+        </div>
+        <section class="container">
+            <div class="text-center m-20">
+                <p class="mb-2 text-2xl font-normal font-inter text-gray-900/56 leading-[1.2]">Testimonials</p>
+                <p class="text-4xl font-normal font-playfair leading-[1.2]">What our buyers say</p>
+            </div>
+            <div class="grid grid-cols-3 gap-8 justify-center mx-20 mb-10 font-inter">
+                <div class="space-y-4">
+                    <div class="flex items-center gap-4 px-10">
+                        <img src="img/Ellipse 1.svg" alt="">
+                        <div class="space-y-2">
+                            <p class="text-xl font-semibold leading-[1.2]">Micheal Wong</p>
+                            <div>
+                                <svg width="120" height="24" viewBox="0 0 120 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M11.0489 2.92705C11.3483 2.00574 12.6517 2.00574 12.9511 2.92705L14.4697 7.60081C14.6035 8.01284 14.9875 8.2918 15.4207 8.2918H20.335C21.3037 8.2918 21.7065 9.53141 20.9228 10.1008L16.947 12.9894C16.5966 13.244 16.4499 13.6954 16.5838 14.1074L18.1024 18.7812C18.4017 19.7025 17.3472 20.4686 16.5635 19.8992L12.5878 17.0106C12.2373 16.756 11.7627 16.756 11.4122 17.0106L7.43648 19.8992C6.65276 20.4686 5.59828 19.7025 5.89763 18.7812L7.41623 14.1074C7.55011 13.6954 7.40345 13.244 7.05296 12.9894L3.07722 10.1008C2.29351 9.53141 2.69628 8.2918 3.66501 8.2918H8.57929C9.01252 8.2918 9.39647 8.01284 9.53035 7.60081L11.0489 2.92705Z" fill="#FFB31F"/>
+                                    <path d="M35.0489 2.92705C35.3483 2.00574 36.6517 2.00574 36.9511 2.92705L38.4697 7.60081C38.6035 8.01284 38.9875 8.2918 39.4207 8.2918H44.335C45.3037 8.2918 45.7065 9.53141 44.9228 10.1008L40.947 12.9894C40.5966 13.244 40.4499 13.6954 40.5838 14.1074L42.1024 18.7812C42.4017 19.7025 41.3472 20.4686 40.5635 19.8992L36.5878 17.0106C36.2373 16.756 35.7627 16.756 35.4122 17.0106L31.4365 19.8992C30.6528 20.4686 29.5983 19.7025 29.8976 18.7812L31.4162 14.1074C31.5501 13.6954 31.4034 13.244 31.053 12.9894L27.0772 10.1008C26.2935 9.53141 26.6963 8.2918 27.665 8.2918H32.5793C33.0125 8.2918 33.3965 8.01284 33.5303 7.60081L35.0489 2.92705Z" fill="#FFB31F"/>
+                                    <path d="M59.0489 2.92705C59.3483 2.00574 60.6517 2.00574 60.9511 2.92705L62.4697 7.60081C62.6035 8.01284 62.9875 8.2918 63.4207 8.2918H68.335C69.3037 8.2918 69.7065 9.53141 68.9228 10.1008L64.947 12.9894C64.5966 13.244 64.4499 13.6954 64.5838 14.1074L66.1024 18.7812C66.4017 19.7025 65.3472 20.4686 64.5635 19.8992L60.5878 17.0106C60.2373 16.756 59.7627 16.756 59.4122 17.0106L55.4365 19.8992C54.6528 20.4686 53.5983 19.7025 53.8976 18.7812L55.4162 14.1074C55.5501 13.6954 55.4034 13.244 55.053 12.9894L51.0772 10.1008C50.2935 9.53141 50.6963 8.2918 51.665 8.2918H56.5793C57.0125 8.2918 57.3965 8.01284 57.5303 7.60081L59.0489 2.92705Z" fill="#FFB31F"/>
+                                    <path d="M83.0489 2.92705C83.3483 2.00574 84.6517 2.00574 84.9511 2.92705L86.4697 7.60081C86.6035 8.01284 86.9875 8.2918 87.4207 8.2918H92.335C93.3037 8.2918 93.7065 9.53141 92.9228 10.1008L88.947 12.9894C88.5966 13.244 88.4499 13.6954 88.5838 14.1074L90.1024 18.7812C90.4017 19.7025 89.3472 20.4686 88.5635 19.8992L84.5878 17.0106C84.2373 16.756 83.7627 16.756 83.4122 17.0106L79.4365 19.8992C78.6528 20.4686 77.5983 19.7025 77.8976 18.7812L79.4162 14.1074C79.5501 13.6954 79.4034 13.244 79.053 12.9894L75.0772 10.1008C74.2935 9.53141 74.6963 8.2918 75.665 8.2918H80.5793C81.0125 8.2918 81.3965 8.01284 81.5303 7.60081L83.0489 2.92705Z" fill="#FFB31F"/>
+                                    <path d="M107.049 2.92705C107.348 2.00574 108.652 2.00574 108.951 2.92705L110.47 7.60081C110.604 8.01284 110.987 8.2918 111.421 8.2918H116.335C117.304 8.2918 117.706 9.53141 116.923 10.1008L112.947 12.9894C112.597 13.244 112.45 13.6954 112.584 14.1074L114.102 18.7812C114.402 19.7025 113.347 20.4686 112.564 19.8992L108.588 17.0106C108.237 16.756 107.763 16.756 107.412 17.0106L103.436 19.8992C102.653 20.4686 101.598 19.7025 101.898 18.7812L103.416 14.1074C103.55 13.6954 103.403 13.244 103.053 12.9894L99.0772 10.1008C98.2935 9.53141 98.6963 8.2918 99.665 8.2918H104.579C105.013 8.2918 105.396 8.01284 105.53 7.60081L107.049 2.92705Z" fill="#FFB31F"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="px-10 text-xl font-normal leading-[1.6]">Lorem ipsum dolor sit amet consectetur adipisicing elit. In aut nemo nam molestias omnis error rerum officiis? Vero sunt provident quis alias praesentium minus laudantium quos delectus aut, ea quam!</p>
+                </div>
+                <div class="space-y-4">
+                    <div class="flex items-center gap-4 px-10">
+                        <img src="img/Ellipse 2.svg" alt="">
+                        <div class="space-y-2">
+                            <p class="text-xl font-semibold leading-[1.2]">Avril Song</p>
+                            <div>
+                                <svg width="121" height="24" viewBox="0 0 121 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M11.7159 2.92705C12.0153 2.00574 13.3187 2.00574 13.618 2.92705L15.1366 7.60081C15.2705 8.01284 15.6545 8.2918 16.0877 8.2918H21.002C21.9707 8.2918 22.3735 9.53141 21.5898 10.1008L17.614 12.9894C17.2635 13.244 17.1169 13.6954 17.2508 14.1074L18.7694 18.7812C19.0687 19.7025 18.0142 20.4686 17.2305 19.8992L13.2548 17.0106C12.9043 16.756 12.4297 16.756 12.0792 17.0106L8.10347 19.8992C7.31976 20.4686 6.26527 19.7025 6.56463 18.7812L8.08322 14.1074C8.2171 13.6954 8.07044 13.244 7.71995 12.9894L3.74421 10.1008C2.9605 9.53141 3.36327 8.2918 4.332 8.2918H9.24628C9.67951 8.2918 10.0635 8.01284 10.1973 7.60081L11.7159 2.92705Z" fill="#FFB31F"/>
+                                    <path d="M35.7159 2.92705C36.0153 2.00574 37.3187 2.00574 37.618 2.92705L39.1366 7.60081C39.2705 8.01284 39.6545 8.2918 40.0877 8.2918H45.002C45.9707 8.2918 46.3735 9.53141 45.5898 10.1008L41.614 12.9894C41.2635 13.244 41.1169 13.6954 41.2508 14.1074L42.7694 18.7812C43.0687 19.7025 42.0142 20.4686 41.2305 19.8992L37.2548 17.0106C36.9043 16.756 36.4297 16.756 36.0792 17.0106L32.1035 19.8992C31.3198 20.4686 30.2653 19.7025 30.5646 18.7812L32.0832 14.1074C32.2171 13.6954 32.0704 13.244 31.72 12.9894L27.7442 10.1008C26.9605 9.53141 27.3633 8.2918 28.332 8.2918H33.2463C33.6795 8.2918 34.0635 8.01284 34.1973 7.60081L35.7159 2.92705Z" fill="#FFB31F"/>
+                                    <path d="M59.7159 2.92705C60.0153 2.00574 61.3187 2.00574 61.618 2.92705L63.1366 7.60081C63.2705 8.01284 63.6545 8.2918 64.0877 8.2918H69.002C69.9707 8.2918 70.3735 9.53141 69.5898 10.1008L65.614 12.9894C65.2635 13.244 65.1169 13.6954 65.2508 14.1074L66.7694 18.7812C67.0687 19.7025 66.0142 20.4686 65.2305 19.8992L61.2548 17.0106C60.9043 16.756 60.4297 16.756 60.0792 17.0106L56.1035 19.8992C55.3198 20.4686 54.2653 19.7025 54.5646 18.7812L56.0832 14.1074C56.2171 13.6954 56.0704 13.244 55.72 12.9894L51.7442 10.1008C50.9605 9.53141 51.3633 8.2918 52.332 8.2918H57.2463C57.6795 8.2918 58.0635 8.01284 58.1973 7.60081L59.7159 2.92705Z" fill="#FFB31F"/>
+                                    <path d="M83.7159 2.92705C84.0153 2.00574 85.3187 2.00574 85.618 2.92705L87.1366 7.60081C87.2705 8.01284 87.6545 8.2918 88.0877 8.2918H93.002C93.9707 8.2918 94.3735 9.53141 93.5898 10.1008L89.614 12.9894C89.2635 13.244 89.1169 13.6954 89.2508 14.1074L90.7694 18.7812C91.0687 19.7025 90.0142 20.4686 89.2305 19.8992L85.2548 17.0106C84.9043 16.756 84.4297 16.756 84.0792 17.0106L80.1035 19.8992C79.3198 20.4686 78.2653 19.7025 78.5646 18.7812L80.0832 14.1074C80.2171 13.6954 80.0704 13.244 79.72 12.9894L75.7442 10.1008C74.9605 9.53141 75.3633 8.2918 76.332 8.2918H81.2463C81.6795 8.2918 82.0635 8.01284 82.1973 7.60081L83.7159 2.92705Z" fill="#FFB31F"/>
+                                    <path d="M107.716 2.92705C108.015 2.00574 109.319 2.00574 109.618 2.92705L111.137 7.60081C111.271 8.01284 111.654 8.2918 112.088 8.2918H117.002C117.971 8.2918 118.373 9.53141 117.59 10.1008L113.614 12.9894C113.264 13.244 113.117 13.6954 113.251 14.1074L114.769 18.7812C115.069 19.7025 114.014 20.4686 113.231 19.8992L109.255 17.0106C108.904 16.756 108.43 16.756 108.079 17.0106L104.103 19.8992C103.32 20.4686 102.265 19.7025 102.565 18.7812L104.083 14.1074C104.217 13.6954 104.07 13.244 103.72 12.9894L99.7442 10.1008C98.9605 9.53141 99.3633 8.2918 100.332 8.2918H105.246C105.68 8.2918 106.063 8.01284 106.197 7.60081L107.716 2.92705Z" fill="#D9D9D9"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="px-10 text-xl font-normal leading-[1.6]">Lorem ipsum dolor sit amet consectetur adipisicing elit. In aut nemo nam molestias omnis error rerum officiis? Vero sunt provident quis</p>
+                </div>
+                <div class="space-y-4">
+                    <div class="flex items-center gap-4 px-10">
+                        <img src="img/Ellipse 1-2.svg" alt="">
+                        <div class="space-y-2">
+                            <p class="text-xl font-semibold leading-[1.2]">Jeanne Wood</p>
+                            <div>
+                                <svg width="121" height="24" viewBox="0 0 121 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M11.7159 2.92705C12.0153 2.00574 13.3187 2.00574 13.618 2.92705L15.1366 7.60081C15.2705 8.01284 15.6545 8.2918 16.0877 8.2918H21.002C21.9707 8.2918 22.3735 9.53141 21.5898 10.1008L17.614 12.9894C17.2635 13.244 17.1169 13.6954 17.2508 14.1074L18.7694 18.7812C19.0687 19.7025 18.0142 20.4686 17.2305 19.8992L13.2548 17.0106C12.9043 16.756 12.4297 16.756 12.0792 17.0106L8.10347 19.8992C7.31976 20.4686 6.26527 19.7025 6.56463 18.7812L8.08322 14.1074C8.2171 13.6954 8.07044 13.244 7.71995 12.9894L3.74421 10.1008C2.9605 9.53141 3.36327 8.2918 4.332 8.2918H9.24628C9.67951 8.2918 10.0635 8.01284 10.1973 7.60081L11.7159 2.92705Z" fill="#FFB31F"/>
+                                    <path d="M35.7159 2.92705C36.0153 2.00574 37.3187 2.00574 37.618 2.92705L39.1366 7.60081C39.2705 8.01284 39.6545 8.2918 40.0877 8.2918H45.002C45.9707 8.2918 46.3735 9.53141 45.5898 10.1008L41.614 12.9894C41.2635 13.244 41.1169 13.6954 41.2508 14.1074L42.7694 18.7812C43.0687 19.7025 42.0142 20.4686 41.2305 19.8992L37.2548 17.0106C36.9043 16.756 36.4297 16.756 36.0792 17.0106L32.1035 19.8992C31.3198 20.4686 30.2653 19.7025 30.5646 18.7812L32.0832 14.1074C32.2171 13.6954 32.0704 13.244 31.72 12.9894L27.7442 10.1008C26.9605 9.53141 27.3633 8.2918 28.332 8.2918H33.2463C33.6795 8.2918 34.0635 8.01284 34.1973 7.60081L35.7159 2.92705Z" fill="#FFB31F"/>
+                                    <path d="M59.7159 2.92705C60.0153 2.00574 61.3187 2.00574 61.618 2.92705L63.1366 7.60081C63.2705 8.01284 63.6545 8.2918 64.0877 8.2918H69.002C69.9707 8.2918 70.3735 9.53141 69.5898 10.1008L65.614 12.9894C65.2635 13.244 65.1169 13.6954 65.2508 14.1074L66.7694 18.7812C67.0687 19.7025 66.0142 20.4686 65.2305 19.8992L61.2548 17.0106C60.9043 16.756 60.4297 16.756 60.0792 17.0106L56.1035 19.8992C55.3198 20.4686 54.2653 19.7025 54.5646 18.7812L56.0832 14.1074C56.2171 13.6954 56.0704 13.244 55.72 12.9894L51.7442 10.1008C50.9605 9.53141 51.3633 8.2918 52.332 8.2918H57.2463C57.6795 8.2918 58.0635 8.01284 58.1973 7.60081L59.7159 2.92705Z" fill="#FFB31F"/>
+                                    <path d="M83.7159 2.92705C84.0153 2.00574 85.3187 2.00574 85.618 2.92705L87.1366 7.60081C87.2705 8.01284 87.6545 8.2918 88.0877 8.2918H93.002C93.9707 8.2918 94.3735 9.53141 93.5898 10.1008L89.614 12.9894C89.2635 13.244 89.1169 13.6954 89.2508 14.1074L90.7694 18.7812C91.0687 19.7025 90.0142 20.4686 89.2305 19.8992L85.2548 17.0106C84.9043 16.756 84.4297 16.756 84.0792 17.0106L80.1035 19.8992C79.3198 20.4686 78.2653 19.7025 78.5646 18.7812L80.0832 14.1074C80.2171 13.6954 80.0704 13.244 79.72 12.9894L75.7442 10.1008C74.9605 9.53141 75.3633 8.2918 76.332 8.2918H81.2463C81.6795 8.2918 82.0635 8.01284 82.1973 7.60081L83.7159 2.92705Z" fill="#FFB31F"/>
+                                    <path d="M107.716 2.92705C108.015 2.00574 109.319 2.00574 109.618 2.92705L111.137 7.60081C111.271 8.01284 111.654 8.2918 112.088 8.2918H117.002C117.971 8.2918 118.373 9.53141 117.59 10.1008L113.614 12.9894C113.264 13.244 113.117 13.6954 113.251 14.1074L114.769 18.7812C115.069 19.7025 114.014 20.4686 113.231 19.8992L109.255 17.0106C108.904 16.756 108.43 16.756 108.079 17.0106L104.103 19.8992C103.32 20.4686 102.265 19.7025 102.565 18.7812L104.083 14.1074C104.217 13.6954 104.07 13.244 103.72 12.9894L99.7442 10.1008C98.9605 9.53141 99.3633 8.2918 100.332 8.2918H105.246C105.68 8.2918 106.063 8.01284 106.197 7.60081L107.716 2.92705Z" fill="#D9D9D9"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="px-10 text-xl font-normal leading-[1.6]">Lorem ipsum dolor sit amet consectetur adipisicing elit. In aut nemo nam molestias omnis error rerum officiis? Vero sunt provident quis alias praesentium minus laudantium quos delectus aut, ea quam!</p>
+                </div>
+            </div>
+            <div class="flex justify-center mb-20">
+                <svg width="44" height="8" viewBox="0 0 44 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="4" cy="4" r="4" fill="#6D1600"/>
+                <circle cx="16" cy="4" r="4" fill="#D9D9D9"/>
+                <circle cx="28" cy="4" r="4" fill="#D9D9D9"/>
+                <circle cx="40" cy="4" r="4" fill="#D9D9D9"/>
+                </svg>
+            </div>
+        </section>
+        <div class="flex justify-center">
+            <svg width="1440" height="1" viewBox="0 0 1440 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="1440" height="1" fill="white"/>
+                <path d="M720 1C385.23 0.900198 160 0.71365 160 0.5C160 0.28635 385.23 0.0998016 720 0C1054.77 0.0998016 1280 0.28635 1280 0.5C1280 0.71365 1054.77 0.900198 720 1Z" fill="#282A3A"/>
+            </svg>     
+        </div>
+        <section class="container">
+            <div class="text-center m-20">
+                <p class="mb-2 text-2xl font-normal font-inter text-gray-900/56 leading-[1.2]">Blog</p>
+                <p class="text-4xl font-normal font-playfair leading-[1.2]">Read our articles</p>
+            </div>
+            <div class="grid grid-cols-3 gap-8 justify-center mx-20 mb-20">
+                <div class="space-y-4 p-4 border border-(--color-border) rounded-tr-[96px] rounded-bl-[40px]">
+                    <img class="w-full" src="img/4-1.svg" alt="">
+                    <div>
+                        <div class="flex justify-between font-inter">
+                            <div class="flex gap-2 items-center">
+                                    <img src="img/User.svg" alt="">
+                                    <p class="text-sm font-normal text-gray-900/56 leading-[1.2]">John Doe</p>
+                            </div>
+                            <div class="flex gap-2 items-center">
+                                    <img src="img/CalendarBlank.svg" alt="">
+                                    <p class="text-sm font-normal text-gray-900/56 leading-[1.2]">Feb 23, 2024</p>
+                            </div>
+                    </div>
+                    </div>
+                    <p class="text-2xl font-medium font-jakarta text-gray-900/90 leading-[1.4]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, quaerat.</p>
+                    <div class="flex gap-2 items-center justify-end">
+                        <p class="text-base font-normal font-inter text-gray-900/56 leading-[1.4]">View details</p>
+                        <img src="img/CaretRight.svg" alt="">
+                    </div>
+                </div>
+                <div class="space-y-4 p-4 border border-(--color-border) rounded-tr-[96px] rounded-bl-[40px]">
+                    <img class="w-full" src="img/4-2.svg" alt="">
+                    <div>
+                        <div class="flex justify-between font-inter">
+                            <div class="flex gap-2 items-center">
+                                    <img src="img/User.svg" alt="">
+                                    <p class="text-sm font-normal text-gray-900/56 leading-[1.2]">John Doe</p>
+                            </div>
+                            <div class="flex gap-2 items-center">
+                                    <img src="img/CalendarBlank.svg" alt="">
+                                    <p class="text-sm font-normal text-gray-900/56 leading-[1.2]">Feb 23, 2024</p>
+                            </div>
+                    </div>
+                    </div>
+                    <p class="text-2xl font-medium font-jakarta text-gray-900/90 leading-[1.4]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, quaerat.</p>
+                    <div class="flex gap-2 items-center justify-end">
+                        <p class="text-base font-normal font-inter text-gray-900/56 leading-[1.4]">View details</p>
+                        <img src="img/CaretRight.svg" alt="">
+                    </div>
+                </div>
+                <div class="space-y-4 p-4 border border-(--color-border) rounded-tr-[96px] rounded-bl-[40px]">
+                    <img class="w-full" src="img/4-3.svg" alt="">
+                    <div>
+                        <div class="flex justify-between font-inter">
+                            <div class="flex gap-2 items-center">
+                                    <img src="img/User.svg" alt="">
+                                    <p class="text-sm font-normal text-gray-900/56 leading-[1.2]">John Doe</p>
+                            </div>
+                            <div class="flex gap-2 items-center">
+                                    <img src="img/CalendarBlank.svg" alt="">
+                                    <p class="text-sm font-normal text-gray-900/56 leading-[1.2]">Feb 23, 2024</p>
+                            </div>
+                    </div>
+                    </div>
+                    <p class="text-2xl font-medium font-jakarta text-gray-900/90 leading-[1.4]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, quaerat.</p>
+                    <div class="flex gap-2 items-center justify-end">
+                        <p class="text-base font-normal font-inter text-gray-900/56 leading-[1.4]">View details</p>
+                        <img src="img/CaretRight.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="flex justify-center">
+                    <a href="#" class="inline-flex items-center gap-4 text-white bg-[var(--color-primary)] py-6 px-12 rounded-tr-4xl rounded-bl-4xl">
+                        <p class="text-2xl font-normal leading-[1.4] uppercase font-playfair-sc">Raed more</p>
+                        <img src="img/ArrowDownRight.svg" alt="">
+                    </a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="container">
+            <div class="p-20 mt-20 grid grid-cols-[1fr_2fr] gap-20 bg-(--color-secondary) text-white">
+                <ul class="space-y-8">
+                    <li class="flex items-center gap-6">
+                        <div class="h-14"><img class="h-full" src="img/Logo-2.svg" alt="">
+                        </div>
+                        <p class="text-5xl font-semibold font-inter leading-[1.2]">Ngopi</p>
+                    </li>
+                    <li class="text-xl font-normal font-inter leading-[1.6]">
+                        Discover tranquility at Ngopi a sanctuary for unwinding, where your evenings are perfected with relaxation and rich flavors.
+                    </li>
+                    <li class="text-xl font-normal font-poppins">
+                        <p>hello@ngopi.com</p>
+                        <p>Phone : +01 23456789</p>
+                    </li>
+                </ul>
+                <div class="space-y-10">
+                    <div class="grid grid-cols-3 justify-between">
+                        <div class="space-y-6">
+                            <p class="text-[28px] font-normal font-playfair">Quick Links</p>
+                            <ul class="space-y-4 text-base font-normal font-inter">
+                                <li>Services</li>
+                                <li>Portfolio</li>
+                                <li>About us</li>
+                                <li>Testimonial</li>
+                            </ul>
+                        </div>
+                        <div class="space-y-6">
+                            <p class="text-[28px] font-normal font-playfair">Resources</p>
+                            <ul class="space-y-4 text-base font-normal font-inter">
+                                <li>Support</li>
+                                <li>PorPrivacy Policy</li>
+                                <li>Test & Conditions</li>
+                            </ul>
+                        </div>
+                        <div class="space-y-6">
+                            <p class="text-[28px] font-normal font-playfair">Social Media</p>
+                            <div class="flex gap-2">
+                                <img src="img/Facebook.png" alt="">
+                                <img src="img/Twitter.svg" alt="">
+                                <img src="img/Instagram.svg" alt="">
+                                <img src="img/Linkedin.svg" alt="">
+                                <img src="img/Youtube.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="space-y-6">
+                        <p class="text-[28px] font-normal font-playfair">Subscribe</p>
+                        <div class="flex items-center gap-2 py-2 pr-2 pl-6 rounded-2xl bg-white/8">
+                            <img src="img/EnvelopeSimple.svg" alt="">
+                            <input class="grow font-poppins text-white/40" type="" placeholder="name@domain.com">
+                            <div class="flex justify-center">
+                                <a href="#" class="text-white bg-[var(--color-primary)] py-4 px-16 rounded-lg">
+                                    <p class="text-xl font-normal font-inter">Send</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>       
+            </div>
+        </section>
+    </footer>
+></body>
+</html>
